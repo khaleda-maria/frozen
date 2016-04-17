@@ -1,0 +1,172 @@
+/* ==============================================
+common Style
+ ===============================================*/
+.c-pink {
+	color: #21A5F1;
+}
+.bg-blue {
+	background-color:#21A5F1;
+}
+.padding-top-bottom {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/* ==============================================
+ slider's Style
+ ===============================================*/
+.slider {
+	background-image: url('../images/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	position: relative;
+	z-index: 10;
+}
+.slider:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	z-index: 20;
+}
+.slider-cntnt {
+	position: relative;
+	z-index: 100;
+}
+.slider .logo {
+	position: relative;
+	margin-left: 5px;
+	margin-top: 100px;
+	z-index: 100;
+}
+.slider .slider-cntnt h1 {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	font-size: 55px; ;
+	color: #fff;
+	font-weight: 300;
+	margin-top: 40px;
+	z-index: 100;
+}
+.slider .slider-cntnt .stroke {
+	position: relative;
+	width: 200px;
+	height: 1px;
+	background: #fff;
+	z-index: 100;
+	margin-top: 35px;
+}
+
+.slider-cntnt p {
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	z-index: 100;
+	font-size: 17px;
+	color: #fff;
+	margin-top: 35px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+.slider-cntnt input[type=text] {
+	font-family: 'Lato', sans-serif;
+	height: 60px;
+	width: 270px;
+	border: 1px solid #fff;
+	float: left;
+	font-size: 17px;
+	font-weight: 300;
+}
+.slider-cntnt form {
+	margin-top: 25px;
+}
+.slider-cntnt input[type=submit] {
+	width: 130px;
+	height: 60px;
+	border: 1px solid #21A5F1;
+	color: #fff;
+	float: left;
+	font-size: 17px;
+	font-weight: 700;
+}
+.slider-cntnt input[type=submit]:hover {
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+/* ==============================================
+ feature's Style
+ ===============================================*/
+.feature-text {
+	font-family: 'Raleway', sans-serif;
+}
+.features .icon i {
+	font-size: 32px;
+	color: #21A5F1;
+	margin-top: 30px;
+}
+
+.feature-text h3 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #262626;
+	margin-top: 30px;
+}
+.feature-text p {
+	font-size: 13px;
+	color: #262626;
+	line-height: 1.5;
+	margin-top: 30px;
+	font-weight: 300;
+}
+.feature-text a {
+	color: #262626;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.feature-text a:hover {
+	text-decoration: none;
+	color: #21A5F1;
+	cursor: pointer;
+}
+/* ==============================================
+ footer's Style
+ ===============================================*/
+footer {
+	background-color: #f2f2f2;
+	height: 100px;
+	padding: 40px 0;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 2px;
+	list-style: none;
+	display: inline-block;
+	background-color: #d9d9d9;
+}
+footer ul li a {
+font-size: 20px;
+color: #fff;
+	
+}
+footer ul li:hover {
+	background-color:  #21A5F1;
+	color: #fff;
+}
+footer ul li:hover a{
+	color: #fff;
+}
+.ftr-right {
+	float: right;
+}

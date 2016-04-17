@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Frozen || 2014</title>
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<!-- ==============================================
+		slider
+		=============================================== -->
+		<section class="slider">
+			<div class="container">
+				<div class="row">
+					<div class="logo wow bounceInDown">
+						<img src="images/logo.png" />
+
+					</div>
+					<div class="slider-cntnt">
+						<h1>We are <span class="c-pink rotate"><strong>brilliant, amazing, fantastic</strong></span>.</h1>
+						<div class="stroke">
+
+						</div>
+						<p>
+							We're sorry, our website is now under construction! Please enter your email
+							<br />
+							below and we'll let you know once we're up and running
+						</p>
+						<form>
+							<input type="text" name="email" placeholder="    Enter your e-mail." />
+							<input type="submit"class="bg-blue" value="Notify me" />
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- ==============================================
+		Features
+		=============================================== -->
+		<section>
+			<div class="container padding-top-bottom">
+				<div class="row">
+					<div class="col-md-4 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+						<div class="features">
+							<div class="icon">
+								<i class="fa fa-thumbs-up"></i>
+							</div>
+							<div class="feature-text">
+								<h3>You'll love it</h3>
+								<p>
+									One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+								</p>
+								<a>Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
+						<div class="features">
+							<div class="icon">
+								<i class="fa fa-keyboard-o"></i>
+							</div>
+							<div class="feature-text">
+								<h3>Easy to customize</h3>
+								<p>
+									It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.
+								</p>
+								<a>Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 wow slideInLeft" data-wow-duration="2s" data-wow-delay="3s">
+						<div class="features">
+							<div class="icon">
+								<i class="fa fa-check-square-o"></i>
+							</div>
+							<div class="feature-text">
+								<h3>Perfect solution</h3>
+								<p>
+									We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.
+								</p>
+								<a>Learn more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="s-icon">
+							<ul>
+								<li class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
+									<a><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="2s">
+									<a><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="3s">
+									<a><i class="fa fa-google"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="ftr-right">
+							<p>
+								&copy; Lumberjacks 2014
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+<!-- ==============================================
+JS
+=============================================== -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+$(document).ready(function(){
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    }
+  }
+);
+wow.init();	
+	
+});
+</script>
+<script src="js/jquery.simple-text-rotator.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".rotate").textrotator({
+  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 2000 // How many milliseconds until the next word show.
+});
+});
+</script>
+
+</body>
+</html>
